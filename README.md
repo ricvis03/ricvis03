@@ -1,67 +1,79 @@
-# Ciao, I'm Riccardo Visconti! 👋
+# Hi, I'm Riccardo Visconti 👋
 
-### Master's Student in Computational Science @ USI | Applied Mathematician | ML & Cryptography Enthusiast
+**Master's Student in Computational Science @ USI · Applied Mathematician · Interests: Bayesian Inference, Numerical Analysis, Cryptography**
 
 ---
 
 ## 🎓 About Me
-I am a motivated **Computational Science Master's student** at **USI** (Università della Svizzera italiana) with a strong foundation in pure and applied mathematics. I hold a **Bachelor's Degree in Mathematics** from the **University of Milan-Bicocca**, where I focused on algebra, analysis, and the mathematical foundations of classical and quantum cryptography.
 
-I love bridging the gap between theoretical mathematics and computational algorithms. I am particularly interested in:
-* **Machine Learning **
-* **Bayesian Statistics & MCMC** 
-* **Numerical Optimization** 
-* **Quantum & Classical Cryptography**
-* **Mathematics **
+I am a **Computational Science Master's student** at **USI** (Università della Svizzera italiana). I hold a **Bachelor's Degree in Mathematics** from the **University of Milan-Bicocca**, where I focused on algebra, analysis, and the mathematical foundations of classical and quantum cryptography.
 
----
+I enjoy bridging theoretical mathematics and computational algorithms. I am particularly interested in:
 
-## 🛠 Skills & Technologies
-
-### 💻 Programming Languages & Frameworks
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/MATLAB-ED7B24?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=sqlite&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-</p>
-
-### 📐 Applied & Computational Mathematics
-* **Probabilistic Inference:** Bayesian Inference, Markov Chain Monte Carlo (MCMC)
-* **Algorithms & Optimization:** Numerical Optimization, MAP estimation
-* **Security & Crypto:** Classical Cryptography (RSA, modular arithmetic), Quantum Key Distribution (QKD, BB84)
-
-### ✍️ Tools & Document Preparation
-<p align="left">
-  <img src="https://img.shields.io/badge/LaTeX-47A141?style=flat-square&logo=latex&logoColor=white" alt="LaTeX" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-</p>
+* **Bayesian Statistics & MCMC**
+* **Numerical Methods & PDE Discretization**
+* **Stochastic Processes & Monte Carlo Methods**
+* **Numerical Optimization**
+* **Classical & Quantum Cryptography**
 
 ---
 
-## 📁 Featured Projects
+## 🛠 Skills
 
-### 📷 [Bayesian Image Analysis in Fourier Space](https://github.com/your-username/bayesian-image-restoration) (2026)
-* **Description:** Developed a Python-based Bayesian framework in Fourier space for image restoration on microscopy data.
-* **Key Achievements:** Leveraged MAP (Maximum A Posteriori) optimization and parallelized MCMC (Markov Chain Monte Carlo) sampling to perform fast, high-accuracy image restoration.
-* **Tech Stack:** `Python`, `Bayesian Inference`, `MCMC`, `Fourier Analysis`, `Scientific Computing`
+**Languages & libraries:** Python (NumPy, SciPy, Pandas, Matplotlib), MATLAB, C++, R, SQL
 
-### 📈 [Quantitative Stock Market Analysis](https://github.com/your-username/stock-analysis) (2025)
-* **Description:** Designed a quantitative tool in Python to process and analyze historical stock market datasets.
-* **Key Achievements:** Utilized Pandas and NumPy to build analytical modules for price trends, volatility calculations, and dataset preprocessing.
-* **Tech Stack:** `Python`, `NumPy`, `Pandas`, `Data Analysis`
+**Applied mathematics**
+* **Probabilistic inference:** Bayesian inference, MAP estimation, Markov Chain Monte Carlo, importance sampling
+* **Numerical analysis:** iterative solvers for linear systems, interpolation, Bézier curves and B-splines, numerical differentiation, spectral methods (Fourier-Galerkin, collocation, tau), high-order finite differences
+* **Stochastic processes:** Poisson processes, Galton-Watson processes
+* **Cryptography:** RSA and modular arithmetic, Quantum Key Distribution (BB84), Shor's algorithm
 
----
-
-## 🎓 Education & Research
-* **M.Sc. in Computational Science** — *USI (Università della Svizzera italiana)* | Feb 2026 – Present
-* **B.Sc. in Mathematics** — *University of Milan-Bicocca* | Oct 2022 – Mar 2026
-  * **Thesis:** *Fondamenti matematici della Crittografia: Dal sistema RSA ai protocolli Quantistici* (Focus: Classical RSA, Quantum Cryptography BB84, Shor's Algorithm).
+**Tools:** LaTeX, Git
 
 ---
 
-## 📫 How to Reach Me
-* 📧 **Email:** [rvisconti2019@gmail.com](mailto:rvisconti2019@gmail.com)
-* 📍 **Location:** Lugano, Switzerland / Milan, Italy
+## 📁 Projects
+
+### Bayesian Image Analysis in Fourier Space (2026)
+Python framework for restoring electron-microscopy (TEM) images in Fourier space, based on a Bayesian model with MAP optimization and parallelized MCMC sampling. Includes a synthetic molecule image generator and tests on benchmark images.
+`Python` · `Bayesian Inference` · `MCMC` · `Fourier Analysis`
+
+### Spectral Methods & PDE Discretization (2026)
+MATLAB solutions and LaTeX reports for the Discretization Methods course:
+* central finite differences and 6th-order schemes for the linear wave problem;
+* Fourier differentiation matrices, accuracy and convergence-rate analysis;
+* Fourier-Galerkin (also with Dirichlet boundary conditions), tau and collocation approximations;
+* viscous Burgers equation solved with a pseudo-spectral method, with $L^\infty$ error and CFL stability analysis.
+
+`MATLAB` · `Spectral Methods` · `LaTeX`
+
+### Radial Basis Function Interpolation (2026)
+Python implementation of kernel interpolation for the Kernel Methods course: distance matrix construction, solving the linear system for the coefficients, and analysis of the Gaussian kernel spectrum and interpolation error.
+`Python` · `NumPy` · `Matplotlib`
+
+### Stochastic Methods & Simulation (2026)
+Python simulations of Galton-Watson and Poisson processes, and Monte Carlo estimators with importance sampling.
+`Python` · `Stochastic Processes` · `Monte Carlo`
+
+### Quantitative Trading Agent with Deterministic Risk Engine
+Python system with deterministic state and risk engines, a real-time market feed, order execution on Hyperliquid, and property-based tests (Hypothesis) verifying risk invariants.
+`Python` · `asyncio` · `Hypothesis` · `pytest`
+
+### Quantitative Stock Market Analysis (2025)
+Python tool for analyzing historical stock time series: price trends, volatility computation, and data preprocessing.
+`Python` · `NumPy` · `Pandas`
+
+---
+
+## 🎓 Education
+
+* **M.Sc. in Computational Science**, USI (Università della Svizzera italiana), Feb 2026 – Present
+* **B.Sc. in Mathematics**, University of Milan-Bicocca, Oct 2022 – Mar 2026
+  * **Thesis:** *Mathematical Foundations of Cryptography: From the RSA System to Quantum Protocols* (RSA, BB84 quantum cryptography, Shor's algorithm)
+
+---
+
+## 📫 Contact
+
+* 📧 [rvisconti2019@gmail.com](mailto:rvisconti2019@gmail.com)
+* 📍 Lugano (Switzerland) / Milan (Italy)
